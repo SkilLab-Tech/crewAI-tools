@@ -67,6 +67,7 @@ from .snowflake_search_tool import (
     SnowflakeSearchToolInput,
 )
 from .spider_tool.spider_tool import SpiderTool
+from .stagehand_tool.stagehand_tool import StagehandTool
 from .txt_search_tool.txt_search_tool import TXTSearchTool
 from .vision_tool.vision_tool import VisionTool
 from .weaviate_tool.vector_search import WeaviateVectorSearchTool
@@ -76,3 +77,4 @@ from .youtube_channel_search_tool.youtube_channel_search_tool import (
     YoutubeChannelSearchTool,
 )
 from .youtube_video_search_tool.youtube_video_search_tool import YoutubeVideoSearchTool
+from .zapier_action_tool.zapier_action_tool import ZapierActionTools
